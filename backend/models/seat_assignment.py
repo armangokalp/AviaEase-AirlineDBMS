@@ -9,6 +9,7 @@ class SeaterType(enum.Enum):
     PASSENGER = 'passenger'
 
 
+
 class FlightSeatAssignment(db.Model):
     __tablename__ = 'flight_seat_assignment'
 
